@@ -1,9 +1,12 @@
 ## What does this do?
-This simple web app allows you to take your Flipper Zero .nfc dumps and convert them to raw .bin dumps that can for example, be imported into your Chameleon Ultra.
+This simple web app allows you to take your Flipper Zero .nfc dumps and convert them to raw .bin dumps. It'll also display the contents of the dump file on screen.
 
-Or you can just use it to archive your NFC tag dumps into a pure binary format. Or get creative.
+You can also use it to archive your NFC tag dumps into a pure binary format. You can also import them directly to devices that support it (Chameleon Ultra...).
 
-Currently, this only supports Mifare Classic 1K dumps.
+### Limitations:
+Currently, this only supports **Mifare Classic 1K** dumps.
+
+Tested on: Flipper Zero w/ mntm-009 firmware, but OFW should work too.
 
 ## How to set up?
 
