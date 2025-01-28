@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #181d28; /* Dark background */
+  color: #ffffff; /* White text for contrast */
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #333; /* Darker border */
+  border-radius: 10px;
+  background-color: #1f2430; /* Slightly lighter dark container */
+}
+
+.file-input {
+  display: none;
+}
+
+.file-input-label, .download-button {
+  display: inline-flex;  /* Ensure it's a flex container */
+  align-items: center;  /* Vertically center the content */
+  justify-content: center;  /* Horizontally center the content */
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #2a2f3b; /* Dark input/button background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  white-space: nowrap;  /* Prevent text from breaking into a new line */
+}
+
+.file-input-label:hover, .download-button:hover {
+  background-color: #3a3f4b; /* Slightly lighter on hover */
+}
+
+.download-button {
+  background-color: #4caf50; /* Green for download button */
+}
+
+.download-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.file-input-label i, .download-button i {
+  margin-right: 8px;  /* Space between icon and text */
+}
+
+pre {
+  text-align: left;
+  background-color: #2a2f3b; /* Dark background for pre */
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  color: #ffffff; /* White text */
+}
+
+.details {
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: monospace;
+  color: #ffffff; /* White text */
+}
+
+/* Additional color rules */
+.block-uid { color: cyan; font-weight: bold; }
+.block-bcc { color: mediumpurple; font-weight: bold; }
+.block-sak { color: lightblue; font-weight: bold; }
+.block-atqa { color: yellow; font-weight: bold; }
+.block-manufacturer { color: #a0a0a0; font-weight: bold; }
+.block-keyA { color: lightgreen; font-weight: bold; }
+.block-keyB { color: lightgreen; font-weight: bold; }
+.block-ac { color: lightcoral; font-weight: bold; }
+.block-data { color: #a0a0a0; font-weight: bold; }
+
+.sector {
+  margin: 20px auto;
+  max-width: 600px; /* Optional: limit width */
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #2a2f3b; /* Background for the sector map */
+  text-align: center; /* Center the content inside the sector */
+}
+
+.sector h3 {
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-align: center; /* Ensure h3 text is centered */
+  margin-right: 70%;
+}
+
+.sector p {
+  margin-left: 10px;
+  color: #ffffff;
+  text-align: center; /* Ensure p text is centered */
+}
+
+#crc32 {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center; /* Center CRC32 text */
+}
+
+.crc-value {
+  color: #00ffad; 
+}
